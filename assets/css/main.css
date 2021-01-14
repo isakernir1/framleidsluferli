@@ -72,6 +72,21 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Feature */
+	.feature {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 200px;
+	}
+
+/* Social */
+	.social {
+		position: relative;
+  		display: inline-block;
+  		float: left;
+  		padding: 10px;
+	}
 /* Basic */
 
 	html {
@@ -214,8 +229,7 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		max-width: 100%;
-		width: 1400px;
+
 	}
 
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
@@ -1742,6 +1756,8 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
+.tab{ margin-left:35px;}
+
 /* Image */
 
 	.image {
@@ -1767,7 +1783,6 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			width: 100%;
 		}
 
 		.image.featured {
@@ -1778,6 +1793,11 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
+			margin: 0 2em 2em 0;
+		}
+
+		.image.right {
+			float: right;
 			margin: 0 2em 2em 0;
 		}
 
