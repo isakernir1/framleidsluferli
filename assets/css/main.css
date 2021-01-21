@@ -85,8 +85,9 @@ input, select, textarea {
 		position: relative;
   		display: inline-block;
   		float: left;
-  		padding: 10px;
+  		padding: 50px;
 	}
+
 /* Basic */
 
 	html {
@@ -1777,8 +1778,8 @@ input, select, textarea {
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 52px;
+				height: 64px;
 			}
 
 		.image.fit {
@@ -2268,7 +2269,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/krissi.JPG");
 			}
 
 			#main > section.two {
