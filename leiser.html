@@ -69,121 +69,259 @@
 				<!-- About Me -->
 					<section id="about" class="three">
 						<div class="container">
-							<p style="font-size:30px"><strong>The making of this website is the first project of the semester in VÉL403G. This
-								website is to become a log of the future projects I will conduct in this course.</strong>
+							<p style="font-size:30px"><strong>The second project of the semester was to design a press fit object,
+								using the 3D modeling software Fusion 360. The model was to be parametrized, that is, easily user-scalable
+								in terms of both kerf and dimensions. 
+							</strong>
 							</p>
 							<p></p>
 							<p></p>
 							<p>
-								During the course of this project I utilized several programs and services in order 
-								to sufficiently complete the task at hand. They are the following:
-							</p>
-							<header>
-								<b>Visual Studio Code</b>
-							</header>
-							<p>
-								Visual Studio Code is a free source-code editor made by Microsoft for Windows, 
-								Linux and macOS. I have been using VSC for some time now and saw no reason
-								to use another editor. Also, VSC has Git embedded.
-							</p>
-							<p></p>
-							<p></p>
-							<header>
-								<b>GitHub</b>
-							</header>
-							<p>
-								GitHub, Inc. is a provider of Internet hosting for software development and 
-								version control using Git. GitHub is also something I was familiar with from 
-								previous projects and so I already had an account set up. Gitub provides several 
-								collaboration features such as bug tracking, feature requests and wikis for every 
-								project.
-							</p>
-							<p></p>
-							<p></p>
-							<header>
-								<b>Git</b>
-							</header>
-							<p>
-								Git is a distributed version-control system for tracking changes in any set of files, 
-								originally designed for coordinating work among programmers cooperating on source 
-								code during software development. 
+								During the course of this project I utilized two programs in order 
+								to sufficiently complete the task at hand. They are the following, 
+								Fusion 360 and InkScape.
 							</p>
 							<p></p>
 							<p></p>
 							<div class="feature">
 								<div align="center;" class="social">
-								  <img src="images/github.png" alt="" width="150" height="150" />
+								  <img src="images/fusion.jpg" alt="" width="300" height="150" />
 								</div>
 								<div align="center;" class="social">
-								  <img src="images/vsc.png" alt="" width="250" height="150" />
-								</div>
-								<div align="center;" class="social">
-								  <img src="images/git.png" alt="" width="120" height="120" />
+								  <img src="images/inkscape.jpg" alt="" width="250" height="150" />
 								</div>
 							</div>
 							<p></p>
 							<p></p>
-							<p>The coding language used, as per the instructions, is HTML5, a language I was not 
-								familar with until now. The choice was to either write your own website from scratch 
-								or to modify and customize a preset template. I chose the latter. The creators of this template, 
-								Prologue, are HTML5 UP (https://html5up.net), a free source of website templates written in HTML5. 
-								Although I was not familiar with HTML, I am somewhat comprehensive in other programming languages 
-								(Python, Java) so I did not feel like I had to particularly prepare myself for the modifying of a 
-								preset template. Therefore, I just set up a GiHub repository, changed the URL to my liking 
-								and began working.
+							<p>Before working on this project my knowledge of Fusion 360 was none, however
+								I have some knowledge of Inventor so I decided to dive right in. My first 
+								mistake was the parametrization&#8212or the lack thereof&#8212which I realized before too long. 
+								Thankfully, Hafliði had provided us with some introductory videos to Fusion 360 
+								and so I watched the first one before moving any further, in which both parametrization and 
+								figer-joints were explained in detail.
 							</p>
 							<p></p>
 							<p></p>
-							<!--
-							<a class="image featured">
-								<img src="images/prologue.JPG" alt>
-							</a>
-							-->
 							<p>
-								In order to get the result I wanted, I oviously had to make some changes to the original 
-								template. Some of these changes demanded new objects be created, such as the ones seen below, 
-								the general structure for which I found on <a href="https://stackoverflow.com">StackOverflow</a>:
+								After a failed first attempt, I could start the designing process. After some 
+								internet search, I found the inspiration on this website: <a href="https://festi.info/boxes.py/">Boxes.py</a>. 
+								First things first, parametrization:
+							</p>
+							<div class="featured">
+								<div align="center;">
+									<img src="images/leiserskurður/leiser_0.JPG" style="width: 70vw; min-width: 330px;">
+								</div>
+							</div>
+							<p>
+								As can be seen on the image above, I have created sveral parameters for the model, which enables me to reference 
+								said parameters when determining dimensions for the model, as opposed to using strict dimensions for each and 
+								every body/object created.
+							</p>
+							<div class="featured">
+								<div align="center;">
+									<img src="images/leiserskurður/leiser_1.JPG" style="width: 60vw; min-width: 330px;">
+								</div>
+							</div>
+							<p>
+								Now I was ready to design my model, starting with the bottom plate of the box.
+							</p>
+							<div class="featured">
+								<div align="center;">
+									<img src="images/leiserskurður/leiser_2.JPG" style="width: 60vw; min-width: 330px;">
+								</div>
+							</div>
+							<p>
+								And as per the instructional video, I created a new sketch on the desired face 
+								and extruded it inwards to make the first female finger-joint.
+							</p>
+							<div class="featured">
+								<div align="center;">
+									<img src="images/leiserskurður/leiser_3.JPG" style="width: 60vw; min-width: 330px;">
+								</div>
+							</div>
+							<p>
+								To save time and prevent human error, I selected the "Rectangular pattern" option under "Create" 
+								to multiply the extrusion and evenly distribute them over the corresponding face, over a 
+								distance calculated as shown in the above image. I used this 
+								method throughout the entire designing process.
 							</p>
 							<div class="feature">
 								<div align="center;" class="social">
-								  <img src="images/feature.JPG" alt="" width="300" height="180" />
+								  <img src="images/leiserskurður/leiser_4.JPG" alt="" width="300" height="180" />
 								</div>
 								<div align="center;" class="social">
-								  <img src="images/social.JPG" alt="" width="300" height="180" />
+								  <img src="images/leiserskurður/leiser_5.JPG" alt="" width="300" height="180" />
 								</div>
 							</div>
 							<p>
-								This allowed me to align two or more pictures horizontally on the page.
+								The next step was to create some the front- and backend of the box.
+								I began by sketching a rectangle of a predetermined dimensions on the 
+								outer-face of the jointed edge of the bottom plate. I then extruded the 
+								sketch inward. To save time, I then combined the two objects such that 
+								the finger-joints on the bottom plate remained and the corresponding 
+								sections of the back-end were cut (see "Edit Feature" box in right hand image).
 							</p>
+							<div class="feature">
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_6.JPG" alt="" width="300" height="180" />
+								</div>
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_7.JPG" alt="" width="350" height="180" />
+								</div>
+							</div>
 							<p>
-								Another example is this: 
+								Because the box is essentially symmetrical I could extrude the existing 
+								back-end to the other side, forming the front-end of the box. The extrusion 
+								is extended to any face of the opposing finger-joints (circled in the above 
+								image) and then a second extrusion is made in the opposite direction, giving 
+								the wall thickness. The finger-joints, of course, I created in the same manner 
+								as explained above.
 							</p>
-							<a class="image featured">
-								<img src="images/viewer.JPG" alt>
-							</a>
+							<div class="feature">
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_8a.JPG" alt="" width="300" height="180" />
+								</div>
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_8b.JPG" alt="" width="300" height="180" />
+								</div>
+							</div>
 							<p>
-								This is allows me to present an interactive pdf document within the website, which 
-								provided a very neat and useful solution in presenting my resume 
-								(can be viewed under "About Me - Resume").
+								The side panels were created in the same way as the front- and backend: A sketch 
+								is created on one side, extruded and antother extrusion is extended to a face on the other 
+								side, which again is extruded into a panel.
 							</p>
+							<div class="feature">
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_9a.JPG" style="width: 21vw; min-width: 110px;" />
+								</div>
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_9c.JPG" style="width: 21vw; min-width: 110px;" />
+								</div>
+								<div align="center;" class="social">
+									<img src="images/leiserskurður/leiser_10.JPG" style="width: 21vw; min-width: 110px;" />
+								</div>
+							</div>
 							<p>
-								A very handy feature in Visual Studio Code is the option through <i>Source Control</i>
-								to track changes constantly and give them a title/comment, which can be pushed directly to your 
-								GitHub repository after you have commited them. This feature makes it very easy to navigate your code's version 
-								history.
+								On the inside of one of the side panels I created a sketch and extruded it to a wall. I then 
+								made some careful calculations for the further cutting of the newly created wall, as can be seen in 
+								the left and center image. As can then be seen in the right image, I extruded the wall to the 
+								other side like before.
 							</p>
-							<a class="featured">
-								<img src="images/changes.JPG" height="240" width="500">
-							</a>
+							<div class="feature">
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_11a.JPG" style="width: 20vw; min-width: 220px;" />
+								</div>
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_11b.JPG" style="width: 20vw; min-width: 220px;" />
+								</div>
+							</div>
 							<p>
-								I used this alot while working on the website and will definitely continue to do so in 
-								future projects. 
+								For the top sliders, I created a sketch on the top face of one of the side panels, which I then 
+								extruded down and combined the two, using the side panel as the cutting tool. This I extruded to 
+								the other side, too.
 							</p>
-							<p></p>
-							<p></p>
-							<p style="font-size:20px">
-								The entire code can be found on the website's repository
-								<a href="https://github.com/isakernir1/framleidsluferli">My website</a>
+							<div class="feature">
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_12a.JPG" style="width: 20vw; min-width: 220px;" />
+								</div>
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_12b.JPG" style="width: 20vw; min-width: 220px;" />
+								</div>
+							</div>
+							<p>
+								For the separator or the mid panel I created a sketch underneath the bottom plate and extruded 
+								it upwards. 
+							</p>
+							<div class="feature">
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_12c.JPG" style="width: 20vw; min-width: 220px;" />
+								</div>
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_12d.JPG" style="width: 20vw; min-width: 220px;" />
+								</div>
+							</div>
+							<p>
+								I then made the same cut as I did on the inner side panels. The finger-joints were 
+								made as before, although, instead of making the first cut a fixed length from the edge,
+								I made the first cut right on the edge.
+							</p>
+							<div class="feature">
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_12e.JPG" style="width: 20vw; min-width: 220px;" />
+								</div>
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_12f.JPG" style="width: 20vw; min-width: 220px;" />
+								</div>
+							</div>
+							<p>
+								Here you can see the finger-joints  on the mid panel.
+							</p>
+							<div class="feature">
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_13.JPG" style="width: 20vw; min-width: 220px;" />
+								</div>
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_13b.JPG" style="width: 20vw; min-width: 220px;" />
+								</div>
+							</div>
+							<p>
+								Lastly, I made a lid, which slides underneath the top sliders.
+							</p>
+							<div class="feature">
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_14a.JPG" style="width: 20vw; min-width: 220px;" />
+								</div>
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_14b.JPG" style="width: 20vw; min-width: 220px;" />
+								</div>
+								<div align="center;" class="social">
+									<img src="images/leiserskurður/leiser_14c.JPG" style="width: 20vw; min-width: 220px;" />
+								</div>
+							</div>
+							<p>
+								...And a small handle for the lid
+							</p>
+							<div class="featured">
+								<div align="center;">
+									<img src="images/leiserskurður/leiser_15.JPG" style="width: 50vw; min-width: 330px;">
+								</div>
+							</div>
+							<p>
+								This is the final design!
+							</p>
+							<div class="feature">
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_16.JPG" style="width: 20vw; min-width: 220px;" />
+								</div>
+								<div align="center;" class="social">
+								  <img src="images/leiserskurður/leiser_16a.JPG" style="width: 20vw; min-width: 220px;" />
+								</div>
+							</div>
+							<p>
+								Before I could laser cut the design, I had to set it up in a printable format and determine the 
+								KERF of the laser cutter to be used. And before I can do that, I first had to make a copy of my completed 
+								design and then, using the "Joint" command under the "Assemble" option, moved the box, piece 
+								by piece on top of the plain rectangular body, making sure nothing overlapped and all faces were 
+								correct. 
+							</p>
+							<div class="featured">
+								<div align="center;">
+									<img src="images/leiserskurður/leiser_16b.JPG" style="width: 50vw; min-width: 330px;">
+								</div>
+							</div>
+							<p>
+								This is what it looks like after I have taken the copy apart and each body has been moved to its place.
+							</p>
+							<div class="featured">
+								<div align="center;">
+									<img src="images/leiserskurður/leiser_16c.JPG" style="width: 50vw; min-width: 330px;">
+								</div>
+							</div>
+							<p>
+								The last thing I did in Fusion 360, before I moved to InkScape, I created a sketch on top of 
+								one of the bodies' faces and offset every circumference of each body about half of the decided 
+								KERF. I then exported this sketch as a .DXF file. I opened the new .DXF file in InkScape and 
+								made sure everything was correct after which I exported the drawing as a .PDF for the laser cutter.
 							</p>
 						</div>
 					</section>
