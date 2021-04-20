@@ -60,7 +60,7 @@
 						<div class="container">
 							<!-- Breytti header-textanum -->
 							<header>
-								<h2 class="alt" style="color:black">The making of this very website!</h2>
+								<h2 class="alt" style="color:black">Milling something huge!</h2>
 							</header>
 
 						</div>
@@ -69,121 +69,106 @@
 				<!-- About Me -->
 					<section id="about" class="three">
 						<div class="container">
-							<p style="font-size:30px"><strong>The making of this website is the first project of the semester in VÉL403G. This
-								website is to become a log of the future projects I will conduct in this course.</strong>
+							<p style="font-size:30px"><strong>The fourth project of the semester was part of a larger group project, involving milling
+								an object of our liking. We wanted to create something functional and interesting and so the group decided on milling a 1:1 press fit bar stool.
+							</strong>
 							</p>
 							<p></p>
 							<p></p>
 							<p>
-								During the course of this project I utilized several programs and services in order 
-								to sufficiently complete the task at hand. They are the following:
+								We decided to divide the project among ourselves so each of us only oversaw a part of it. My contribution to the project 
+								involved creating the toolpaths for the stool parts. (The stool's design process can be found <a href="https://joelinga.github.io/milling.html">here.</a>)
+								During the course of this project I utilized only one program: VCarve.
 							</p>
-							<header>
-								<b>Visual Studio Code</b>
-							</header>
 							<p>
-								Visual Studio Code is a free source-code editor made by Microsoft for Windows, 
-								Linux and macOS. I have been using VSC for some time now and saw no reason
-								to use another editor. Also, VSC has Git embedded.
-							</p>
-							<p></p>
-							<p></p>
-							<header>
-								<b>GitHub</b>
-							</header>
-							<p>
-								GitHub, Inc. is a provider of Internet hosting for software development and 
-								version control using Git. GitHub is also something I was familiar with from 
-								previous projects and so I already had an account set up. Gitub provides several 
-								collaboration features such as bug tracking, feature requests and wikis for every 
-								project.
-							</p>
-							<p></p>
-							<p></p>
-							<header>
-								<b>Git</b>
-							</header>
-							<p>
-								Git is a distributed version-control system for tracking changes in any set of files, 
-								originally designed for coordinating work among programmers cooperating on source 
-								code during software development. 
+								VCarve is a software solution for cutting parts on a CNC Router. It allows you to produce 2D patterns with profile,
+								pocket, drill and inlay toolpaths.
 							</p>
 							<p></p>
 							<p></p>
 							<div class="feature">
 								<div align="center;" class="social">
-								  <img src="images/github.png" alt="" width="150" height="150" />
-								</div>
-								<div align="center;" class="social">
-								  <img src="images/vsc.png" alt="" width="250" height="150" />
-								</div>
-								<div align="center;" class="social">
-								  <img src="images/git.png" alt="" width="120" height="120" />
+								  <img src="images/vcarve.png" alt="" width="400" height="150" />
 								</div>
 							</div>
 							<p></p>
 							<p></p>
-							<p>The coding language used, as per the instructions, is HTML5, a language I was not 
-								familar with until now. The choice was to either write your own website from scratch 
-								or to modify and customize a preset template. I chose the latter. The creators of this template, 
-								Prologue, are HTML5 UP (https://html5up.net), a free source of website templates written in HTML5. 
-								Although I was not familiar with HTML, I am somewhat comprehensive in other programming languages 
-								(Python, Java) so I did not feel like I had to particularly prepare myself for the modifying of a 
-								preset template. Therefore, I just set up a GiHub repository, changed the URL to my liking 
-								and began working.
+							<p>
+								Below is the final layout of the design of the stool. The design was exported from Fusion 360 by a group member, Jóel Ingason, 
+								as a .DFX file for me to work with in VCarve. 
 							</p>
 							<p></p>
 							<p></p>
-							<!--
-							<a class="image featured">
-								<img src="images/prologue.JPG" alt>
-							</a>
-							-->
+							<div class="feature">
+								<div align="center;" class="social">
+								  <img src="images/verkefni4/layout.JPG" alt="" width="400" height="200" />
+								</div>
+							</div>
 							<p>
-								In order to get the result I wanted, I oviously had to make some changes to the original 
-								template. Some of these changes demanded new objects be created, such as the ones seen below, 
-								the general structure for which I found on <a href="https://stackoverflow.com">StackOverflow</a>:
+							<p></p>
+								When I had the .DXF file uploaded to VCarve, I was ready to go. The first thing I did was create the tool. When setting it up, I followed 
+								the corresponding video on the class website for instructions. As can be seen on the image below, the tool had the following settings: Tool Type set 
+								as End Mill; Spindle Speed set to 10500 rpm; Feed Rate set to 70 mm/sec; and Plunge Rate set to 50 mm/sec.
+							</p>
+							<p></p>
+							<p></p>
+							<div class="feature">
+								<div align="center;" class="social">
+								  <img src="images/verkefni4/tool.JPG" alt="" width="450" height="280" />
+								</div>
+							</div>
+							<p>
+							<p></p>
+								Next, I created the dog bone fillets. Because all individual parts are press fit together, the fit had to be tight 
+								for the stool to be functional and therefore the dog bone fillets are used to make sure the ends fit together properly and to make assembly 
+								possible.
+							</p>
+							<p></p>
+							<p></p>
+							<div class="feature">
+								<div align="center;" class="social">
+								  <img src="images/verkefni4/dogbone_fillet.JPG" alt="" width="500" height="250" />
+								</div>
+							</div>
+							<p>
+							<p></p>
+								When the dog bone fillets were complete I moved on to determining the best places to anchor the plywood board before milling. 
+								Below you can see the location of the screws relative to the layout of the model (left) as well the calculated CNC toolpath for the screws (right).
 							</p>
 							<div class="feature">
 								<div align="center;" class="social">
-								  <img src="images/feature.JPG" alt="" width="300" height="180" />
+								  <img src="images/verkefni4/holur_drill.JPG" alt="" width="300" height="150" />
 								</div>
 								<div align="center;" class="social">
-								  <img src="images/social.JPG" alt="" width="300" height="180" />
+								  <img src="images/verkefni4/holur calculate.JPG" alt="" width="300" height="150" />
 								</div>
 							</div>
-							<p>
-								This allowed me to align two or more pictures horizontally on the page.
-							</p>
-							<p>
-								Another example is this: 
-							</p>
-							<a class="image featured">
-								<img src="images/viewer.JPG" alt>
-							</a>
-							<p>
-								This is allows me to present an interactive pdf document within the website, which 
-								provided a very neat and useful solution in presenting my resume 
-								(can be viewed under "About Me - Resume").
-							</p>
-							<p>
-								A very handy feature in Visual Studio Code is the option through <i>Source Control</i>
-								to track changes constantly and give them a title/comment, which can be pushed directly to your 
-								GitHub repository after you have commited them. This feature makes it very easy to navigate your code's version 
-								history.
-							</p>
-							<a class="featured">
-								<img src="images/changes.JPG" height="240" width="500">
-							</a>
-							<p>
-								I used this alot while working on the website and will definitely continue to do so in 
-								future projects. 
-							</p>
 							<p></p>
+								When the holes' location had been carefully determined I moved on to the tabs. The tabs are crucial to the milling process as they keep the parts 
+								in place and ensure an even cut along the defined toolpaths. The tabs can be seen in the below image, marked in green. The tabs are 
+								easily removed after milling.
+							</p>
+							<div class="feature">
+								<div align="center;" class="social"></div>
+									<img src="images/verkefni4/tabs_nr2.JPG" alt="" width="500" height="250" />
+								</div>
+							</div>
 							<p></p>
-							<p style="font-size:20px">
-								The entire code can be found on the website's repository
-								<a href="https://github.com/isakernir1/framleidsluferli">My website</a>
+							<p>
+								Lastly, I created the actual toolpaths, both for the milling of inside cuts (left) and outside cuts (right).
+							</p>
+							<div class="feature">
+								<div align="center;" class="social">
+								  <img src="images/verkefni4/innri_toolpath.JPG" alt="" width="400" height="250" />
+								</div>
+								<div align="center;" class="social">
+								  <img src="images/verkefni4/toolpaths_fyrri.JPG" alt="" width="400" height="250" />
+								</div>
+							</div>
+							<p></p>
+							<p>
+								Because I was limited to a trial license, as opposed to a pro licence, the finalization of the settings were set in the FabLab and the 
+								G codes exported.
 							</p>
 						</div>
 					</section>
